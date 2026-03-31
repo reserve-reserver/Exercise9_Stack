@@ -3,7 +3,7 @@ import java.util.ArrayDeque;
 
 public class BracketCheck {
     public static void main(String[] args) {
-        String test = "{[()]}"; // 你可以随便改
+        String test = "{[()]}"; 
         System.out.println("括号是否合法：" + isBalanced(test));
     }
 
